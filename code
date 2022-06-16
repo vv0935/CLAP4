@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int Math,Physics, Chemistry, CS,English,sum;
+    float avg;
+    printf("Math=");
+    scanf("%d",&Math);
+    printf("Physics=");
+    scanf("%d",&Physics);
+    printf("Chemistry=");
+    scanf("%d",&Chemistry);
+    printf("CS=");
+    scanf("%d",&CS);
+    printf("English=");
+    scanf("%d",&English);
+    sum=Math+Physics+Chemistry+CS+English;
+    avg=sum/5.0;
+    printf("Average is %f",avg);
+    return 0;
+}
